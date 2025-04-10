@@ -14,6 +14,7 @@ This project implements a digital wallet and store system using **gRPC**, simula
 ## Getting Started
 
 Each service runs independently and communicates over configurable ports. To run the system:
+
 make run_cli_banco arg1=carteira_cliente arg2=nome_do_host_do_serv_banco:5555
 make run_serv_banco arg1=5555
 make run_serv_loja arg1=10 arg2=6666 arg3=carteira_loja arg4=nome_do_host_do_serv_banco:5555
